@@ -1,8 +1,6 @@
 import unittest
 from aba.rulegenerator import RuleGenerator
 from aba.assumptionBaseArg_framework import ABA_framework
-
-
 class test_MultipleDisputeTrees(unittest.TestCase):
     def setUp(self):
         print("start")

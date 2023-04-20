@@ -8,7 +8,7 @@ class ABA_framework():
 
         self.arguments = []
         self.potential_arguments = []
-        self.dispute_trees = []
+
 
     def flag_for_contrary(self):
         all_assumption_have_contrary = True
