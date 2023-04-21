@@ -1,6 +1,7 @@
 import re
-from .rulegenerator import RuleGenerator
+
 from .assumptionBaseArg_framework import ABA_framework
+from .rulegenerator import RuleGenerator
 
 
 class Argumet_transformer():
@@ -100,9 +101,10 @@ class Argumet_transformer():
 
         return tuple(x for x in iter(symbols))
 
-    def construct_aba(self):
+    def construct_builder(self):
         aba = ABA_framework()
         aba.symbols = list(self.__get_aba_symbols())
+
         for symbol in aba.symbols:
             print("Print all symbols: ", symbol)
 
